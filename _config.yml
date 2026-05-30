@@ -1,0 +1,27 @@
+title: MainJuara
+description: Review gaming gear di Shopee Indonesia. Headset, gamepad, kursi gaming, mouse, keyboard mech — tested for real gaming.
+url: https://alisyahbanaku.github.io
+baseurl: /mainjuara
+author: Iqbal
+lang: id-ID
+timezone: Asia/Jakarta
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: review
+      author: Iqbal
+
+exclude:
+  - README.md
+  - .gitignore
